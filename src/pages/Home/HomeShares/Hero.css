@@ -1,0 +1,11 @@
+.image-fill {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.gradient {
+    background: linear-gradient(to top, rgb(46, 43, 43), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    padding: 10px;
+}
