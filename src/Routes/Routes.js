@@ -1,4 +1,5 @@
 import Admin from "../Layout/Admin";
+import Other from "../Layout/Other";
 import AdminHome from "../pages/AdminLayout/AdminHome";
 import UploadForm from "../pages/AdminLayout/UploadForm";
 
@@ -23,11 +24,18 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: '/admin',
-                element: <AdminHome></AdminHome>
-            },
+                element: <AdminHome />
+            }
+        ]
+    },
+    {
+        path: '/other',
+        element: <Other />,
+        children: [
             {
-                path: '/admin/upload',
-                element: <UploadForm></UploadForm>
+                path: '/other/upload',
+                element: <UploadForm />
+
             }
         ]
     }

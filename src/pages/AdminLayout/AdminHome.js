@@ -1,12 +1,26 @@
 import React from 'react';
-import UploadForm from './UploadForm';
 import { Link } from 'react-router-dom';
+import AdminDrawer from './shares/AdminDrawer';
+import Overview from './shares/DashboardOverview/Overview';
 
 const AdminHome = () => {
     return (
-        <div className=' max-w-[1240px] mx-auto p-5'>
-            <Link to='/admin/upload'><button className='btn btn-outline uppercase'>Upload a product</button></Link>
+        <div>
+
+            <div className=' bg-black '>
+
+
+                <div className='flex'>
+                    <div className=' min-w-screen'>
+                        <AdminDrawer></AdminDrawer>
+                    </div>
+                    <div className='max-w-[1040px] mx-auto'>
+                        <Overview></Overview>
+                    </div>
+                </div>
+            </div>
         </div>
+
     );
 };
 

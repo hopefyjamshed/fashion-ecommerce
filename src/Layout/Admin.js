@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbars from '../Shares/Header/Navbars';
 import { Outlet } from 'react-router-dom';
+import AdminNavbar from '../Shares/Header/AdminNavbar';
 
 const Admin = () => {
     return (
         <div className=''>
-            <Navbars></Navbars>
+            <AdminNavbar />
             <Outlet></Outlet>
         </div>
     );
