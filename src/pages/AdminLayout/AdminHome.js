@@ -7,7 +7,7 @@ const AdminHome = () => {
     return (
         <div>
 
-            <div className=' bg-black '>
+            <div className='bg-black'>
 
 
                 <div className='flex'>

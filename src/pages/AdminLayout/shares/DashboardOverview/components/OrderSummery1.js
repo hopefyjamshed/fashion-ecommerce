@@ -3,6 +3,13 @@ import { FiLayers, FiShoppingCart, IconName } from "react-icons/fi";
 import { BiNotepad } from "react-icons/bi";
 
 const OrderSummery1 = () => {
+    // const cardData=[
+    //     {
+    //         logo: FiLayers,
+    //         header: "Todays Orders",
+    //         amount: 0.00
+    //     }
+    // ]
     return (
         <div className='flex gap-4'>
 
@@ -64,6 +71,9 @@ const OrderSummery1 = () => {
                 <h1 className='text-white text-[25px] font-semibold mb-2 mt-2'>$0.00</h1>
             </div>
         </div>
+        // <div>
+
+        // </div>
     );
 };
 
