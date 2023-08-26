@@ -10,8 +10,8 @@ import img4 from '../../../assets/carousel-img4.jpeg'
 
 const BasicSlider = () => {
     return (
-        <HeroSlider
-            height={"50vh"}
+        <HeroSlider className=' h-[50vh] md:h-[50vh] lg:h-[500px]'
+            height={""}
             autoplay
             controller={{
                 initialSlide: 1,
