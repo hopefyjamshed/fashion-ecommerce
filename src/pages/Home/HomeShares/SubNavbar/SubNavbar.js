@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './SubNavbar.css'
+
 
 const SubNavbar = () => {
     return (
@@ -11,10 +11,10 @@ const SubNavbar = () => {
                 </div>
                 <div className="navbar-center nav lg:flex">
                     <ul id='navbar' className="flex gap-12">
-                        <li className='list font-extrabold active text-[20px]'><Link to='' className='target' >All</Link></li>
-                        <li className='list font-extrabold active text-[20px]'><Link to='' className='target' >Gents</Link></li>
-                        <li className='list font-extrabold text-[20px] hover:text-[#2874f0]'><Link to='' className='target' >Ladies</Link></li>
-                        <li className='list font-extrabold text-[20px] hover:text-[#2874f0]'><Link to='' className='target' >Kids</Link></li>
+                        <li className='list text-white font-extrabold active text-[20px] hover:text-[#2874f0]'><Link to='' className='target' >All</Link></li>
+                        <li className='list text-white font-extrabold active text-[20px] hover:text-[#2874f0]'><Link to='' className='target' >Gents</Link></li>
+                        <li className='list text-white font-extrabold text-[20px] hover:text-[#2874f0]'><Link to='' className='target' >Ladies</Link></li>
+                        <li className='list text-white font-extrabold text-[20px] hover:text-[#2874f0]'><Link to='' className='target' >Kids</Link></li>
 
                     </ul>
                 </div>

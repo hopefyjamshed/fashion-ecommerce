@@ -14,7 +14,7 @@ const AdminDrawer = () => {
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
                 <ul className="menu p-4 w-[256px] h-full bg-[#1c1d22] text-base-content">
                     {/* Sidebar content here */}
-                    <li><Link to='/other/upload'><button className=' uppercase font-bold'>Upload a product</button></Link></li>
+                    <li><Link to='/other/upload'><button className=' uppercase font-bold text-white'>Upload a product</button></Link></li>
                     <li><a>Sidebar Item 2</a></li>
                 </ul>
 
