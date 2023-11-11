@@ -290,13 +290,13 @@ const handleImageChange=(event)=>{
                         </div>
                     </div>
                     
-                 <div className='flex gap-2 lg:gap-5 items-center mt-5'>
+                 <div className='md:flex gap-2 lg:gap-5 items-center mt-5'>
                  <h3 className='w-full text-[10px] text-[15px] text-medium text-gray-500 uppercase'>Colors</h3>
-                 <div className='flex justify-start gap-2 lg:gap-5'>
-                        <input type="text" {...register('color1')} placeholder="1" className="input border input-borderd bg-blue-100  focus:border-blue-200 hover:bg-blue-100 w-[50px]" />
-                        <input type="text" {...register('color2')} placeholder="2" className="input border input-borderd bg-blue-100  focus:border-blue-200 hover:bg-blue-100 w-[50px]" />
-                        <input type="text" {...register('color3')} placeholder="3" className="input border input-borderd bg-blue-100  focus:border-blue-200 hover:bg-blue-100 w-[50px]" />
-                        <input type="text" {...register('color4')} placeholder="4" className="input border input-borderd bg-blue-100  focus:border-blue-200 hover:bg-blue-100 w-[50px]" />     
+                 <div className='md:flex-nowrap flex-wrap flex justify-start gap-5 '>
+                        <input type="text" {...register('color1')} placeholder="1" className="input border input-borderd bg-blue-100  focus:border-blue-200 hover:bg-blue-100 w-[80px]" />
+                        <input type="text" {...register('color2')} placeholder="2" className="input border input-borderd bg-blue-100  focus:border-blue-200 hover:bg-blue-100 w-[80px]" />
+                        <input type="text" {...register('color3')} placeholder="3" className="input border input-borderd bg-blue-100  focus:border-blue-200 hover:bg-blue-100 w-[80px]" />
+                        <input type="text" {...register('color4')} placeholder="4" className="input border input-borderd bg-blue-100  focus:border-blue-200 hover:bg-blue-100 w-[80px]" />     
                     </div> 
                   </div>
                   <div className='flex mt-5'>
