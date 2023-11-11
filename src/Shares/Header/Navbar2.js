@@ -8,7 +8,7 @@ const Navbar2 = () => {
     const phoneNumber = '01814138555'
     const tel = '+8801872-777685'
     return (
-        <div className='bg-[] px-[7px]' style={{background:"linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 7%, rgba(0,212,255,1) 100%)"}}>
+        <div className='bg-[] px-[7px]' style={{background:"linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 7%, rgba(2,0,36,1) 100%)"}}>
             <div className="navbar max-w-[1240px] mx-auto">
                 <div className="flex-1 hidden lg:inline">
                     <a href='/' className="lg:inline hidden normal-case text-4xl text-white font-mono ">SORASHOP<GiShoppingCart className='inline mb-[5px]'></GiShoppingCart></a>
