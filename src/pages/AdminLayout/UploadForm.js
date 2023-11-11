@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import { toast } from 'react-hot-toast';
 import { Link } from 'react-router-dom';
 import { IconName,AiOutlinePlus } from "react-icons/ai";
+import img from '../../assets/backgroud_image.png'
 
 
 const UploadForm = () => {
@@ -114,7 +115,7 @@ const handleImageChange=(event)=>{
         reset()
     }
     return (
-        <div className='max-w-[1240px] mx-auto p-5 mt-3 py-12 bg-gray-100'>
+        <div className='max-w-[1240px] mx-auto p-5 mt-3 py-12 bg-gray-100 ' >
            
             <Link to='/admin'><button className='btn px-4 bg-gray-400 text-[10px] text-white p-[1px] mb-7'> go back to dashboard</button></Link>
             
@@ -326,7 +327,17 @@ const handleImageChange=(event)=>{
     <option value="Not Available" defaultValue>Select Product Type</option>
     <option value="Shirt">SHIRT</option>
     <option value="Jeanse">Jeanse</option>
+    <option value="hoodie">Hoodie</option>
     <option value="T-shirt">T-shirt</option>
+    <option value="jacket">Jacket</option>
+    <option value="tops">Tops</option>
+    <option value="sweater">Sweater</option>
+    <option value="shorts">shorts</option>
+    <option value="twill">Twill</option>
+    <option value="trouser">Trouser</option>
+    <option value="saree">Saree</option>
+    <option value="panjabi">Panjabi</option>
+    <option value="payjama">Payjama</option>
 </select>
 
 
