@@ -40,7 +40,7 @@ const BasicSlider = () => {
 
             <Slide
                 shouldRenderMask
-                label="Giau Pass - Italy"
+                // label="Giau Pass - Italy"
                 background={{
                     backgroundImageSrc: img1
                 }}
@@ -48,7 +48,7 @@ const BasicSlider = () => {
 
             <Slide
                 shouldRenderMask
-                label="Bogliasco - Italy"
+                // label="Bogliasco - Italy"
                 background={{
                     backgroundImageSrc: img2
                 }}
@@ -56,7 +56,7 @@ const BasicSlider = () => {
 
             <Slide
                 shouldRenderMask
-                label="County Clare - Ireland"
+                // label="County Clare - Ireland"
                 background={{
                     backgroundImageSrc: img3
                 }}
@@ -64,7 +64,7 @@ const BasicSlider = () => {
 
             <Slide
                 shouldRenderMask
-                label="Crater Rock, OR - United States"
+                // label="Crater Rock, OR - United States"
                 background={{
                     backgroundImageSrc: img4
                 }}
