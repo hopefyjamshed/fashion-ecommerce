@@ -86,14 +86,14 @@ const handleImageChange=(event)=>{
                         Image: img==='' ? "no image appeard": img,
                         
                         Name: data.nameOfProduct,
-                        ribbon: data.ribbon,
+                        Ribbon: data.ribbon,
                         Price: data.price,
-                        goods_cost: data.goods_cost,
-                        product_info: data.product_info,
-                        return: data.return,
-                        shipping: data.shipping,
-                        profit:data.profit,
-                        discount: data.discount,
+                        Goods_cost: data.goods_cost,
+                        Product_info: data.product_info,
+                        Return: data.return,
+                        Shipping: data.shipping,
+                        Profit:data.profit,
+                        Discount: data.discount,
                         Size: [
                             data.size1,
                             data.size2,
@@ -104,7 +104,7 @@ const handleImageChange=(event)=>{
                         Type: data.ProductType,
                         Category: data.category,
                         Brand: data.brand,
-                        color: [
+                        Color: [
                             data.color1,
                             data.color2,
                             data.color3,

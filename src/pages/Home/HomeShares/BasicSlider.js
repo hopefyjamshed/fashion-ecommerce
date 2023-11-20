@@ -39,6 +39,7 @@ const BasicSlider = () => {
             </Overlay>
 
             <Slide
+            
                 shouldRenderMask
                 // label="Giau Pass - Italy"
                 background={{
