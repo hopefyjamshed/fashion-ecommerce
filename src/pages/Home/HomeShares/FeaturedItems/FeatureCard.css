@@ -27,7 +27,7 @@ outline: none;
     top: 0;
     filter: blur(30px);
     opacity: .5s;
-    transform: translateX(-130px) skewX(-15deg);
+    transform: translateX(-130px) skewX(-15deg) hidden;
 }
 
 .fb:after{
@@ -41,17 +41,18 @@ outline: none;
     top: 0;
     opacity: 0;
     filter: blur(30px);
-    transform: translate(-100px) scaleX(-15deg);
+    transform: translate(-50px) scaleX(-15deg);
 }
 
 .fb:hover{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 7%, rgba(2,0,36,1) 100%);
-    cursor: pointer;
+    
     color: white;
     position: relative;
 }
 .fb:hover:before{
     transform: translateX(300px) skewX(-15deg);
+    
     opacity: .6;
     transition: .9s;
 }
