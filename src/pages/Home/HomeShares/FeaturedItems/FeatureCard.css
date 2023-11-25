@@ -14,6 +14,7 @@
 
 .fb:focus{
 outline: none;
+overflow: hidden;
 }
 
 .fb:before{
@@ -22,12 +23,14 @@ outline: none;
     position:absolute;
     background: rgba(255,255,255,5);
     width: 60px;
-    height: 100%;
+    height:  40px;
     left: 0;
     top: 0;
     filter: blur(30px);
-    opacity: .5s;
-    transform: translateX(-130px) skewX(-15deg) hidden;
+    opacity: .7s;
+    transform: translateX() skewX(-15deg);
+    
+    
 }
 
 .fb:after{
@@ -42,24 +45,27 @@ outline: none;
     opacity: 0;
     filter: blur(30px);
     transform: translate(-50px) scaleX(-15deg);
+    overflow: hidden;
 }
 
 .fb:hover{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 7%, rgba(2,0,36,1) 100%);
-    
     color: white;
     position: relative;
+  
+    
 }
 .fb:hover:before{
     transform: translateX(300px) skewX(-15deg);
     
     opacity: .6;
     transition: .9s;
+    overflow: hidden;
 }
 .fb:hover:after{
     transform: (300px) skewX(-15deg);
     opacity: 1;
-    transition: .9s;
+    transition: .5s;
 }
 /* .fb:hover{
     color: #fff;
